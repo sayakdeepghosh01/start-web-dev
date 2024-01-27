@@ -1,0 +1,23 @@
+*{
+    padding: 10;
+    margin: 10;
+}
+h1{
+    background-color: rgb(228, 45, 45);
+}
+p{
+    background-color: azure;
+}
+span{
+    background-color: aqua;
+}
+table, th, td{
+    /* background-color: rgb(151, 151, 224); */
+    border-collapse: collapse;
+    border: 2px black solid;
+    padding: 10px;
+    border-collapse: collapse;
+}
+th{
+    background-color: rgb(233, 198, 111);
+}
