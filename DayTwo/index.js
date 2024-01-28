@@ -71,7 +71,19 @@
 // console.log(a); // because we declare it in functionblock
 
 
+// function fnname(){
+//     console.log(a);
+//     if(true){
+//         var a = 10;
+//     }
+//     console.log(a);
+//     var a = 100;
+//     console.log(a);
+// }
+// //console.log(a);
+// fnname();
+// //console.log(a);
 
 
-
+//console.log("2"-"2");
 

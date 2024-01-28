@@ -20,4 +20,15 @@ int function(){
 
 
 
-var is a  
+
+
+coercion
+exception is only for + (-:-)
+strig+num = string
+num+strig = string
+
+string * string = num
+
+equality- 
+== is the operator->only value
+=== -> value and its type
