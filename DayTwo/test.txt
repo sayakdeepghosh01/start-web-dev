@@ -1,0 +1,23 @@
+there are three scope in javascript
+Global -
+Block -
+Functional/Local -
+
+
+var ->functional scope 
+let -> block scope
+const -> block scope
+
+
+var a= 8;
+{
+    //block scope 
+}
+
+int function(){
+    //the function boady is itself functional scope
+}
+
+
+
+var is a  

@@ -11,7 +11,7 @@
 var value = 10; // here 
 console.log(typeof value);
 //primitive datatypes- Number, String, Boolean, null, symbol, Bigint, undefined
-// reference - any object like array, functions, objects
+//reference - any object like array, functions, objects
 
 //number-
 // -2,147,483,647 to 2,147,483,647 is the range of number in javascript
