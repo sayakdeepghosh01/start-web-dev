@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>contact UI</title>
+    <style>
+        body {
+            background-color: #f4f4f4;
+            margin: 0;
+            
+        }
+
+        .container {
+            width: 80%;
+            margin: 20px auto;
+            background-color: #d9eb81;
+            border-radius: 5px;
+        }
+
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+
+        li {
+            
+            background-color: rgb(208, 248, 67);
+        }
+        #add {
+            
+            display: flex;
+            justify-content: center;
+        }
+        #add a.button {
+            background-color: rgb(247, 206, 58);
+            text-decoration: none;
+        }
+        .search-bar {
+            margin-top: 20px;
+            margin-bottom: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+        }
+
+        table {
+            width: 100%;
+        }
+
+        th, td {
+            background-color: rgb(161, 248, 146);
+            border: 2px solid rgb(52, 234, 49);
+            text-align: left;
+        }
+
+        th {
+            background-color: #b0dd48;
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="container">
+        <h1>Hui Hai contact Ui</h1>
+        <h3>Makers Name:</h3>
+        <ul>
+            <li>Keya</li>
+            <li>Sayak</li>
+        </ul>
+        <div id="add">
+           
+            <a href="form.html" class="button">Add details</a>
+        </div>
+        <div class="search-bar">
+            <input  type="text" placeholder="Search contact...">
+            <button type="submit">Search</button>
+        </div>
+
+        <!--table use-->
+        <table>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Email</th>
+                    <th>Phone</th>
+                    <th>Gender</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Keya Tarafdar</td>
+                    <td>keya@gmail.com</td>
+                    <td>9800192009</td>
+                    <td>Female</td>
+                </tr>
+                <tr>
+                    <td>Sayak Ghosh</td>
+                    <td>sayak@gmail.com</td>
+                    <td>9235436510</td>
+                    <td>Male</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>

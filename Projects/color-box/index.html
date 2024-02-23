@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Swapper</title>
+    <style>
+        body {
+            padding-left: 40%;
+            padding-top: 10%;
+        }
+        #parent {
+            position: relative;
+        }
+        #box2 {
+            height: 15rem;
+            width: 15rem;
+            background-color: rgb(23, 210, 23);
+            z-index: 2;
+        }
+        #box1 {
+            height: 10rem;
+            width: 10rem;
+            margin-top: 5%;
+            margin-left: 4.7%;
+            background-color: red;
+            position: absolute;
+            z-index: 1;
+        }
+        button {
+            margin-top: 5%;
+            margin-left: 10%;
+            background-color: aquamarine;
+            border: none;
+            height: 30px;
+            width: 80px;
+            border-radius: 10px;
+        }
+        button:hover {
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div id="parent">
+        <div id="box1">red</div>
+        <div id="box2">green</div>
+    </div>
+    <button id="magic">Magic</button>
+    <script>
+        const box1 = document.getElementById('box1');
+        const box2 = document.getElementById('box2');
+        const magic = document.getElementById('magic');
+
+        magic.addEventListener('click', () => {
+            // let zIndex1 = parseInt(box1.style.zIndex);
+            // let zIndex2 = parseInt(box2.style.zIndex);
+
+            if (Number(box1.style.zIndex) === 1) {
+                box1.style.zIndex = "2";
+                // box2.style.zIndex = "1";
+            } else {
+                box1.style.zIndex = "1";
+                box2.style.zIndex = "2";
+            }
+        });
+    </script>
+</body>
+</html>
